@@ -9,7 +9,7 @@ const NavBar = () => {
 
 
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar border-4 border-blue-800'>
+    <nav className='w-full flex py-6 justify-between items-center navbar '>
       
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]"/>
 
@@ -23,7 +23,7 @@ const NavBar = () => {
           ))}
       </ul>
 
-      <div className='sm:hidden flex flex-1 justify-end items-center border-4 border-red-800'>
+      <div className='sm:hidden flex flex-1 justify-end items-center'>
 
         <img 
             src={toggle ? close : menu} 
